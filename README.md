@@ -17,3 +17,5 @@ Please fork this repository and follow along **using your fork** as the instruct
 -read the port from the environment: `const 
 define a start script in package.json that uses node (instead of nodemon) to run the server.
 -by default heroku will run your application with "npm start"
+-create a new applicaion on heroku
+-connect the app to Github (repository + branch)
