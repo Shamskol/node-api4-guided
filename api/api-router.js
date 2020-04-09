@@ -36,7 +36,7 @@ router.delete("/shouts/:id", (req, res) => {
       if (count) {
         res.status(204).end();
       } else {
-        res.status(404).json({ message: "not found" });
+        res.status(200).json({ api: "up", MESSAGE });
       }
     })
     .catch(error => next(error));
