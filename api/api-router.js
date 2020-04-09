@@ -9,7 +9,7 @@ router.use(express.json());
 router.get("/", (req, res) => {
   const message = process.env.MESSAGE || "hello from localhost" 
   //returm the message as prt of response
-  res.status(200).json({ api: "up" });
+  res.status(200).json({ api: "up", MESSAGE });
 
   //visit your-app-url
 });
